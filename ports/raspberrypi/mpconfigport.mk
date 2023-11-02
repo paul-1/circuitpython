@@ -50,3 +50,8 @@ USB_NUM_ENDPOINT_PAIRS = 8
 
 INTERNAL_FLASH_FILESYSTEM = 1
 CIRCUITPY_SETTABLE_PROCESSOR_FREQUENCY = 1
+FROZEN_MPY_DIRS += $(TOP)/frozen/Adafruit_CircuitPython_Bitmap_Font
+FROZEN_MPY_DIRS += $(TOP)/frozen/Adafruit_CircuitPython_DisplayIO_SSD1306
+FROZEN_MPY_DIRS += $(TOP)/frozen/Adafruit_CircuitPython_Display_Text
+FROZEN_MPY_DIRS += $(TOP)/frozen/Adafruit_CircuitPython_HTTPServer
+FROZEN_MPY_DIRS += $(TOP)/frozen/Foamyguy_CircuitPython_nvm_helper
